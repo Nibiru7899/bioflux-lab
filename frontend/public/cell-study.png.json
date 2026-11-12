@@ -1,0 +1,5 @@
+{
+  "prompt": "Create one premium scientific editorial illustration for a computational E. coli metabolic-engineering research application. A wide cinematic macro still life, 3:2 aspect ratio: two translucent rod-shaped bacterial cells rendered in extraordinary biological detail, suspended in a deep midnight navy liquid, pale seafoam membranes, warm coral internal molecular structures and a few tiny soft-focus particles. The largest cell crosses diagonally from lower left toward upper right, occupying the right half of the image; a smaller cell recedes on the left. Refined museum-quality scientific 3D visualization, physically lit translucent membrane, subtle cool rim lighting, no neon glow, no circuitry, no text, no numbers, no logos, no UI, no diagram arrows, no grid. Crisp but restrained, clear silhouette, dark negative space. This is an explicitly conceptual illustration, not a microscopy photograph or experimental evidence. Use ink navy #101f30, seafoam #9fd9ce and a restrained coral #e49c83.",
+  "tool": "image_gen.imagegen",
+  "purpose": "Conceptual UI illustration; not scientific evidence"
+}

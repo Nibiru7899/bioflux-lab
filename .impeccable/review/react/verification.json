@@ -1,0 +1,40 @@
+{
+  "scope": "Local React/FastAPI UI integration; scientific artifacts unchanged",
+  "python_tests": {
+    "passed": 37,
+    "seconds": 9.06,
+    "warnings": "Third-party SWIG and Starlette/httpx deprecations"
+  },
+  "frontend_build": "TypeScript and Vite production build passed",
+  "browser_checks": [
+    "Actual GNN prediction",
+    "Actual solver verification",
+    "15-point growth-production curve",
+    "Scenario changes clear stale results",
+    "Infeasible b2779 retains missing production endpoints",
+    "Core and iML1515 research results",
+    "Cost axis includes upstream GNN labels",
+    "390px mobile control drawer",
+    "No document horizontal overflow at 390px and 1280px"
+  ],
+  "review_fix": {
+    "result_and_tradeoff_and_evidence_text": {
+      "foreground": "#536b75",
+      "background": "#f5f7f6",
+      "contrast_ratio": 5.24
+    },
+    "inactive_segmented_text": {
+      "foreground": "#4f6862",
+      "background": "#e9eeec",
+      "contrast_ratio": 5.13
+    }
+  },
+  "source_docs": [
+    "Context7 React",
+    "Context7 Vite",
+    "Context7 Motion",
+    "Context7 Apache ECharts",
+    "Context7 FastAPI"
+  ],
+  "screenshot_scope": "Viewport captures and named continuations; full-page capture unavailable in IAB"
+}

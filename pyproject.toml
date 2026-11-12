@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bioflux-lab"
+version = "0.1.0"
+description = "Solver-verified graph learning for computational metabolic intervention discovery"
+requires-python = ">=3.12"
+dependencies = ["cobra>=0.32,<0.33", "numpy>=2,<3", "pandas>=2,<3", "scipy>=1.14,<2", "scikit-learn>=1.6,<2", "torch>=2.6,<3", "safetensors>=0.5,<1", "streamlit>=1.40,<2", "plotly>=6,<8", "matplotlib>=3.9,<4", "requests>=2.32,<3", "networkx>=3.4,<4", "fastapi>=0.135,<1", "uvicorn>=0.54,<1"]
+
+[project.scripts]
+bioflux = "bioflux.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["bioflux*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --basetemp=.tmp/pytest"

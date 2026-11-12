@@ -1,0 +1,543 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-28T06:16:21.034002+00:00",
+  "title": "Design System: BioFlux Lab",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Primary",
+        "tonalRamp": [
+          "oklch(15.0% 0.08345 174.85)",
+          "oklch(26.4% 0.08345 174.85)",
+          "oklch(37.9% 0.08345 174.85)",
+          "oklch(49.3% 0.08345 174.85)",
+          "oklch(60.7% 0.08345 174.85)",
+          "oklch(72.1% 0.08345 174.85)",
+          "oklch(83.6% 0.08345 174.85)",
+          "oklch(95.0% 0.08345 174.85)"
+        ]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Primary Hover",
+        "tonalRamp": [
+          "oklch(15.0% 0.07361 173.98)",
+          "oklch(26.4% 0.07361 173.98)",
+          "oklch(37.9% 0.07361 173.98)",
+          "oklch(49.3% 0.07361 173.98)",
+          "oklch(60.7% 0.07361 173.98)",
+          "oklch(72.1% 0.07361 173.98)",
+          "oklch(83.6% 0.07361 173.98)",
+          "oklch(95.0% 0.07361 173.98)"
+        ]
+      },
+      "atlas-ground": {
+        "role": "neutral",
+        "displayName": "Atlas Ground",
+        "tonalRamp": [
+          "oklch(15.0% 0.00249 165.08)",
+          "oklch(26.4% 0.00249 165.08)",
+          "oklch(37.9% 0.00249 165.08)",
+          "oklch(49.3% 0.00249 165.08)",
+          "oklch(60.7% 0.00249 165.08)",
+          "oklch(72.1% 0.00249 165.08)",
+          "oklch(83.6% 0.00249 165.08)",
+          "oklch(95.0% 0.00249 165.08)"
+        ]
+      },
+      "sidebar-ground": {
+        "role": "neutral",
+        "displayName": "Sidebar Ground",
+        "tonalRamp": [
+          "oklch(15.0% 0.00593 170.45)",
+          "oklch(26.4% 0.00593 170.45)",
+          "oklch(37.9% 0.00593 170.45)",
+          "oklch(49.3% 0.00593 170.45)",
+          "oklch(60.7% 0.00593 170.45)",
+          "oklch(72.1% 0.00593 170.45)",
+          "oklch(83.6% 0.00593 170.45)",
+          "oklch(95.0% 0.00593 170.45)"
+        ]
+      },
+      "control-ground": {
+        "role": "neutral",
+        "displayName": "Control Ground",
+        "tonalRamp": [
+          "oklch(15.0% 0.00000 89.88)",
+          "oklch(26.4% 0.00000 89.88)",
+          "oklch(37.9% 0.00000 89.88)",
+          "oklch(49.3% 0.00000 89.88)",
+          "oklch(60.7% 0.00000 89.88)",
+          "oklch(72.1% 0.00000 89.88)",
+          "oklch(83.6% 0.00000 89.88)",
+          "oklch(95.0% 0.00000 89.88)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15.0% 0.03724 241.76)",
+          "oklch(26.4% 0.03724 241.76)",
+          "oklch(37.9% 0.03724 241.76)",
+          "oklch(49.3% 0.03724 241.76)",
+          "oklch(60.7% 0.03724 241.76)",
+          "oklch(72.1% 0.03724 241.76)",
+          "oklch(83.6% 0.03724 241.76)",
+          "oklch(95.0% 0.03724 241.76)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15.0% 0.02945 232.12)",
+          "oklch(26.4% 0.02945 232.12)",
+          "oklch(37.9% 0.02945 232.12)",
+          "oklch(49.3% 0.02945 232.12)",
+          "oklch(60.7% 0.02945 232.12)",
+          "oklch(72.1% 0.02945 232.12)",
+          "oklch(83.6% 0.02945 232.12)",
+          "oklch(95.0% 0.02945 232.12)"
+        ]
+      },
+      "evidence-ink": {
+        "role": "neutral",
+        "displayName": "Evidence Ink",
+        "tonalRamp": [
+          "oklch(15.0% 0.03252 225.27)",
+          "oklch(26.4% 0.03252 225.27)",
+          "oklch(37.9% 0.03252 225.27)",
+          "oklch(49.3% 0.03252 225.27)",
+          "oklch(60.7% 0.03252 225.27)",
+          "oklch(72.1% 0.03252 225.27)",
+          "oklch(83.6% 0.03252 225.27)",
+          "oklch(95.0% 0.03252 225.27)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15.0% 0.00966 196.99)",
+          "oklch(26.4% 0.00966 196.99)",
+          "oklch(37.9% 0.00966 196.99)",
+          "oklch(49.3% 0.00966 196.99)",
+          "oklch(60.7% 0.00966 196.99)",
+          "oklch(72.1% 0.00966 196.99)",
+          "oklch(83.6% 0.00966 196.99)",
+          "oklch(95.0% 0.00966 196.99)"
+        ]
+      },
+      "navy": {
+        "role": "neutral",
+        "displayName": "Navy",
+        "tonalRamp": [
+          "oklch(15.0% 0.03896 252.55)",
+          "oklch(26.4% 0.03896 252.55)",
+          "oklch(37.9% 0.03896 252.55)",
+          "oklch(49.3% 0.03896 252.55)",
+          "oklch(60.7% 0.03896 252.55)",
+          "oklch(72.1% 0.03896 252.55)",
+          "oklch(83.6% 0.03896 252.55)",
+          "oklch(95.0% 0.03896 252.55)"
+        ]
+      },
+      "graph-text": {
+        "role": "neutral",
+        "displayName": "Graph Text",
+        "tonalRamp": [
+          "oklch(15.0% 0.03625 241.61)",
+          "oklch(26.4% 0.03625 241.61)",
+          "oklch(37.9% 0.03625 241.61)",
+          "oklch(49.3% 0.03625 241.61)",
+          "oklch(60.7% 0.03625 241.61)",
+          "oklch(72.1% 0.03625 241.61)",
+          "oklch(83.6% 0.03625 241.61)",
+          "oklch(95.0% 0.03625 241.61)"
+        ]
+      },
+      "graph-edge": {
+        "role": "neutral",
+        "displayName": "Graph Edge",
+        "tonalRamp": [
+          "oklch(15.0% 0.04937 245.91)",
+          "oklch(26.4% 0.04937 245.91)",
+          "oklch(37.9% 0.04937 245.91)",
+          "oklch(49.3% 0.04937 245.91)",
+          "oklch(60.7% 0.04937 245.91)",
+          "oklch(72.1% 0.04937 245.91)",
+          "oklch(83.6% 0.04937 245.91)",
+          "oklch(95.0% 0.04937 245.91)"
+        ]
+      },
+      "metabolite": {
+        "role": "secondary",
+        "displayName": "Metabolite",
+        "tonalRamp": [
+          "oklch(15.0% 0.05931 247.87)",
+          "oklch(26.4% 0.05931 247.87)",
+          "oklch(37.9% 0.05931 247.87)",
+          "oklch(49.3% 0.05931 247.87)",
+          "oklch(60.7% 0.05931 247.87)",
+          "oklch(72.1% 0.05931 247.87)",
+          "oklch(83.6% 0.05931 247.87)",
+          "oklch(95.0% 0.05931 247.87)"
+        ]
+      },
+      "reaction": {
+        "role": "secondary",
+        "displayName": "Reaction",
+        "tonalRamp": [
+          "oklch(15.0% 0.06709 176.79)",
+          "oklch(26.4% 0.06709 176.79)",
+          "oklch(37.9% 0.06709 176.79)",
+          "oklch(49.3% 0.06709 176.79)",
+          "oklch(60.7% 0.06709 176.79)",
+          "oklch(72.1% 0.06709 176.79)",
+          "oklch(83.6% 0.06709 176.79)",
+          "oklch(95.0% 0.06709 176.79)"
+        ]
+      },
+      "target": {
+        "role": "tertiary",
+        "displayName": "Target",
+        "tonalRamp": [
+          "oklch(15.0% 0.08601 76.58)",
+          "oklch(26.4% 0.08601 76.58)",
+          "oklch(37.9% 0.08601 76.58)",
+          "oklch(49.3% 0.08601 76.58)",
+          "oklch(60.7% 0.08601 76.58)",
+          "oklch(72.1% 0.08601 76.58)",
+          "oklch(83.6% 0.08601 76.58)",
+          "oklch(95.0% 0.08601 76.58)"
+        ]
+      },
+      "disabled-reaction": {
+        "role": "tertiary",
+        "displayName": "Disabled Reaction",
+        "tonalRamp": [
+          "oklch(15.0% 0.10842 35.06)",
+          "oklch(26.4% 0.10842 35.06)",
+          "oklch(37.9% 0.10842 35.06)",
+          "oklch(49.3% 0.10842 35.06)",
+          "oklch(60.7% 0.10842 35.06)",
+          "oklch(72.1% 0.10842 35.06)",
+          "oklch(83.6% 0.10842 35.06)",
+          "oklch(95.0% 0.10842 35.06)"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Focus",
+        "tonalRamp": [
+          "oklch(15.0% 0.08896 175.28)",
+          "oklch(26.4% 0.08896 175.28)",
+          "oklch(37.9% 0.08896 175.28)",
+          "oklch(49.3% 0.08896 175.28)",
+          "oklch(60.7% 0.08896 175.28)",
+          "oklch(72.1% 0.08896 175.28)",
+          "oklch(83.6% 0.08896 175.28)",
+          "oklch(95.0% 0.08896 175.28)"
+        ]
+      },
+      "segmented-ground": {
+        "role": "neutral",
+        "displayName": "Segmented Ground",
+        "tonalRamp": [
+          "oklch(15.0% 0.00595 170.44)",
+          "oklch(26.4% 0.00595 170.44)",
+          "oklch(37.9% 0.00595 170.44)",
+          "oklch(49.3% 0.00595 170.44)",
+          "oklch(60.7% 0.00595 170.44)",
+          "oklch(72.1% 0.00595 170.44)",
+          "oklch(83.6% 0.00595 170.44)",
+          "oklch(95.0% 0.00595 170.44)"
+        ]
+      },
+      "segmented-ink": {
+        "role": "neutral",
+        "displayName": "Segmented Ink",
+        "tonalRamp": [
+          "oklch(15.0% 0.03119 178.60)",
+          "oklch(26.4% 0.03119 178.60)",
+          "oklch(37.9% 0.03119 178.60)",
+          "oklch(49.3% 0.03119 178.60)",
+          "oklch(60.7% 0.03119 178.60)",
+          "oklch(72.1% 0.03119 178.60)",
+          "oklch(83.6% 0.03119 178.60)",
+          "oklch(95.0% 0.03119 178.60)"
+        ]
+      },
+      "tag-ground": {
+        "role": "neutral",
+        "displayName": "Tag Ground",
+        "tonalRamp": [
+          "oklch(15.0% 0.02086 161.45)",
+          "oklch(26.4% 0.02086 161.45)",
+          "oklch(37.9% 0.02086 161.45)",
+          "oklch(49.3% 0.02086 161.45)",
+          "oklch(60.7% 0.02086 161.45)",
+          "oklch(72.1% 0.02086 161.45)",
+          "oklch(83.6% 0.02086 161.45)",
+          "oklch(95.0% 0.02086 161.45)"
+        ]
+      },
+      "tag-ink": {
+        "role": "neutral",
+        "displayName": "Tag Ink",
+        "tonalRamp": [
+          "oklch(15.0% 0.06156 170.31)",
+          "oklch(26.4% 0.06156 170.31)",
+          "oklch(37.9% 0.06156 170.31)",
+          "oklch(49.3% 0.06156 170.31)",
+          "oklch(60.7% 0.06156 170.31)",
+          "oklch(72.1% 0.06156 170.31)",
+          "oklch(83.6% 0.06156 170.31)",
+          "oklch(95.0% 0.06156 170.31)"
+        ]
+      },
+      "chart-random": {
+        "role": "secondary",
+        "displayName": "Chart Random",
+        "tonalRamp": [
+          "oklch(15.0% 0.04861 246.58)",
+          "oklch(26.4% 0.04861 246.58)",
+          "oklch(37.9% 0.04861 246.58)",
+          "oklch(49.3% 0.04861 246.58)",
+          "oklch(60.7% 0.04861 246.58)",
+          "oklch(72.1% 0.04861 246.58)",
+          "oklch(83.6% 0.04861 246.58)",
+          "oklch(95.0% 0.04861 246.58)"
+        ]
+      },
+      "chart-greedy": {
+        "role": "secondary",
+        "displayName": "Chart Greedy",
+        "tonalRamp": [
+          "oklch(15.0% 0.07723 307.90)",
+          "oklch(26.4% 0.07723 307.90)",
+          "oklch(37.9% 0.07723 307.90)",
+          "oklch(49.3% 0.07723 307.90)",
+          "oklch(60.7% 0.07723 307.90)",
+          "oklch(72.1% 0.07723 307.90)",
+          "oklch(83.6% 0.07723 307.90)",
+          "oklch(95.0% 0.07723 307.90)"
+        ]
+      },
+      "chart-tree": {
+        "role": "secondary",
+        "displayName": "Chart Tree",
+        "tonalRamp": [
+          "oklch(15.0% 0.10380 51.29)",
+          "oklch(26.4% 0.10380 51.29)",
+          "oklch(37.9% 0.10380 51.29)",
+          "oklch(49.3% 0.10380 51.29)",
+          "oklch(60.7% 0.10380 51.29)",
+          "oklch(72.1% 0.10380 51.29)",
+          "oklch(83.6% 0.10380 51.29)",
+          "oklch(95.0% 0.10380 51.29)"
+        ]
+      },
+      "chart-graph": {
+        "role": "secondary",
+        "displayName": "Chart Graph",
+        "tonalRamp": [
+          "oklch(15.0% 0.08959 175.47)",
+          "oklch(26.4% 0.08959 175.47)",
+          "oklch(37.9% 0.08959 175.47)",
+          "oklch(49.3% 0.08959 175.47)",
+          "oklch(60.7% 0.08959 175.47)",
+          "oklch(72.1% 0.08959 175.47)",
+          "oklch(83.6% 0.08959 175.47)",
+          "oklch(95.0% 0.08959 175.47)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Page headline",
+        "purpose": "Desktop 35px; 30px at 1000px, 27px at 760px."
+      },
+      "metric": {
+        "displayName": "Outcome value",
+        "purpose": "Tabular numerical results; 19px on mobile."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.23,1,.32,1)",
+        "purpose": "CSS press and drawer movement; Motion outcome easing."
+      },
+      {
+        "name": "button-feedback",
+        "value": "140ms transform; 180ms background-color/border-color",
+        "purpose": "Fine-pointer hover and press."
+      },
+      {
+        "name": "graph-emphasis",
+        "value": "180ms ease",
+        "purpose": "Opacity and stroke changes on inspected connectivity."
+      },
+      {
+        "name": "outcome-arrival",
+        "value": "240ms; opacity .25 to 1; translateY(8px) to 0",
+        "purpose": "Outcome state replacement; reduced motion removes translation."
+      },
+      {
+        "name": "chart-reveal",
+        "value": "240ms reveal; 180ms update; cubicOut",
+        "purpose": "ECharts; animation disabled under reduced motion."
+      },
+      {
+        "name": "loading",
+        "value": "1s linear infinite rotation",
+        "purpose": "Loading icon only; disabled under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "min-width:1700px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "max-width:1200px"
+      },
+      {
+        "name": "stacked",
+        "value": "max-width:1000px"
+      },
+      {
+        "name": "mobile",
+        "value": "max-width:760px"
+      }
+    ],
+    "focus": [
+      {
+        "name": "visible-focus",
+        "value": "2px solid #378e7a; outline-offset:4px",
+        "purpose": "Focusable controls and links."
+      }
+    ],
+    "provenance": {
+      "sources": [
+        "frontend/src/style.css",
+        "frontend/src/App.tsx",
+        "frontend/src/Network.tsx",
+        "frontend/src/Charts.tsx",
+        "frontend/src/Research.tsx",
+        "PRODUCT.md",
+        ".impeccable/surface-briefs/react-lab.md"
+      ],
+      "authority": "Source extraction from approved code-led React molecular atlas direction; not a fresh computed-style or browser review.",
+      "reviewEvidence": [
+        ".impeccable/review/react/verification.json",
+        ".impeccable/review/react/desktop.png",
+        ".impeccable/review/react/mobile.png",
+        ".impeccable/review/react/research.png"
+      ],
+      "reviewDisposition": "Parent supplied finish reviewer acceptance: ship at fix-list scope, all four contrast fixes resolved. Existing verification record inspected; documenter did not rerun runtime checks.",
+      "rampUse": "Synthesized OKLCH tonal ramps are panel-only previews, not additional shipping tokens.",
+      "font": "frontend/public/fonts/manrope.ttf; Google Fonts official repository; OFL.txt and provenance.json retained.",
+      "imagery": "frontend/public/cell-study.png; exact prompt sidecar cell-study.png.json; conceptual AI label. Review screenshots and scientific plots are separate evidence.",
+      "componentPreviews": "Static isolated source-style samples; they do not execute scientific operations or recreate React state. Actual hover/focus rules included only where present."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary solver action",
+      "kind": "button",
+      "description": "Actual action styling; icon-free label sample.",
+      "html": "<button class=\"ds-primary\">Verify with solver</button>",
+      "css": ".ds-primary{font-family:Manrope,system-ui,sans-serif;display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:7px;min-height:41px;padding:10px 15px;font-size:11px;font-weight:550;cursor:pointer;transition:transform 140ms cubic-bezier(.23,1,.32,1),background-color 180ms ease,border-color 180ms ease;background:var(--green,#176d5b);color:#fff;border:1px solid var(--green,#176d5b);}.ds-primary:focus-visible{outline:2px solid #378e7a;outline-offset:4px;}.ds-primary:active:not(:disabled){transform:scale(.98);}.ds-primary:disabled{opacity:.48;cursor:not-allowed;}@media(hover:hover) and (pointer:fine){.ds-primary:hover:not(:disabled){transform:translateY(-1px);background:#115a4a;}}@media(max-width:760px){.ds-primary{min-height:44px;}}@media(prefers-reduced-motion:reduce){.ds-primary{transition:opacity 160ms ease;}.ds-primary:hover,.ds-primary:active{transform:none;}}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Secondary prediction action",
+      "kind": "button",
+      "description": "Actual action styling; icon-free label sample.",
+      "html": "<button class=\"ds-secondary\">Predict with graph ensemble</button>",
+      "css": ".ds-secondary{font-family:Manrope,system-ui,sans-serif;display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:7px;min-height:41px;padding:10px 15px;font-size:11px;font-weight:550;cursor:pointer;transition:transform 140ms cubic-bezier(.23,1,.32,1),background-color 180ms ease,border-color 180ms ease;background:#fff;color:#41645b;border:1px solid #cbd9d4;}.ds-secondary:focus-visible{outline:2px solid #378e7a;outline-offset:4px;}.ds-secondary:active:not(:disabled){transform:scale(.98);}.ds-secondary:disabled{opacity:.48;cursor:not-allowed;}@media(hover:hover) and (pointer:fine){.ds-secondary:hover:not(:disabled){transform:translateY(-1px);background:#f7fbf8;border-color:#7ba190;}}@media(max-width:760px){.ds-secondary{min-height:44px;}}@media(prefers-reduced-motion:reduce){.ds-secondary{transition:opacity 160ms ease;}.ds-secondary:hover,.ds-secondary:active{transform:none;}}",
+      "refersTo": "button-secondary"
+    },
+    {
+      "name": "Gene select",
+      "kind": "input",
+      "description": "Native field styling; option contents are illustrative, not an executed scenario.",
+      "html": "<select class=\"ds-select\" aria-label=\"Gene deletions\"><option>Choose a gene deletion</option></select>",
+      "css": ".ds-select{font-family:Manrope,system-ui,sans-serif;width:100%;min-height:41px;border:1px solid #cad9d7;background:#fff;border-radius:7px;padding:8px 28px 8px 10px;color:#334e57;font-size:11px;accent-color:var(--green,#176d5b);}.ds-select:focus-visible{outline:2px solid #378e7a;outline-offset:4px;}",
+      "refersTo": "select"
+    },
+    {
+      "name": "Selected gene tag",
+      "kind": "chip",
+      "description": "Removable gene selection; a visual sample, not a model result.",
+      "html": "<span class=\"ds-tag\">b2779<button aria-label=\"Remove b2779\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M18 6 6 18M6 6l12 12\"/></svg></button></span>",
+      "css": ".ds-tag{font-family:Manrope,system-ui,sans-serif;display:inline-flex;align-items:center;background:#d8e8df;color:#285b4b;padding:4px 7px;gap:6px;font-size:11px;border-radius:4px;}.ds-tag button{border:0;padding:0;background:none;color:inherit;display:flex;cursor:pointer;}.ds-tag button:focus-visible{outline:2px solid #378e7a;outline-offset:4px;}",
+      "refersTo": "gene-tag"
+    },
+    {
+      "name": "Application navigation",
+      "kind": "nav",
+      "description": "Desktop active underline; source mobile layout changes to a fixed bottom bar. Sample omits fixed positioning.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Work areas\"><button class=\"ds-active\" aria-current=\"page\">Virtual laboratory</button><button>Research results</button></nav>",
+      "css": ".ds-nav{display:flex;gap:30px;min-height:76px;border-bottom:1px solid var(--line,#dce5e5);background:#fff;}.ds-nav button{font-family:Manrope,system-ui,sans-serif;position:relative;background:none;border:0;color:#63767f;font-size:12px;font-weight:600;padding:0 3px;cursor:pointer;}.ds-nav .ds-active{color:var(--green,#176d5b);}.ds-nav .ds-active:after{content:\"\";height:2px;background:var(--green,#176d5b);position:absolute;bottom:0;left:0;right:0;}.ds-nav button:focus-visible{outline:2px solid #378e7a;outline-offset:4px;}@media(hover:hover) and (pointer:fine){.ds-nav button:hover{color:var(--green,#176d5b);}}"
+    },
+    {
+      "name": "Research container",
+      "kind": "card",
+      "description": "Bordered white scientific section; chart content omitted from the preview.",
+      "html": "<section class=\"ds-research\"><h2>Discovery, under a budget</h2><p>Mean best verified gain across seeds and held-out environments.</p></section>",
+      "css": ".ds-research{font-family:Manrope,system-ui,sans-serif;background:#fff;border-radius:12px;border:1px solid var(--line,#dce5e5);padding:25px;color:var(--ink,#213544);}.ds-research h2{margin:0;font-size:16px;font-weight:650;line-height:1.4;letter-spacing:-.03em;}.ds-research p{color:var(--muted,#5b6f7a);font-size:10px;line-height:1.7;margin:6px 0 0;}@media(max-width:760px){.ds-research{padding:19px 13px;}}",
+      "refersTo": "research-card"
+    },
+    {
+      "name": "Topology legend",
+      "kind": "custom",
+      "description": "Categorical encoding on the actual graph surface; no fabricated topology rendered.",
+      "html": "<section class=\"ds-network\"><h2>Metabolic network</h2><div class=\"ds-legend\"><span><i class=\"ds-metabolite\"></i>Metabolite</span><span><i class=\"ds-reaction\"></i>Reaction</span><span><i class=\"ds-target\"></i>Succinate</span></div><p>Connections show model topology, not measured flux.</p></section>",
+      "css": ".ds-network{font-family:Manrope,system-ui,sans-serif;background:var(--navy,#101f30);border-radius:13px;padding:20px 20px 14px;color:#c2d3df;}.ds-network h2{color:#edf4f7;font-size:15px;letter-spacing:-.02em;margin:0 0 20px;}.ds-legend{display:flex;gap:11px;flex-wrap:wrap;font-size:10px;color:#bfd0dc;}.ds-legend span{display:inline-flex;gap:5px;align-items:center;}.ds-legend i{width:5px;height:5px;display:inline-block;}.ds-metabolite{border-radius:50%;background:#87a8c8;}.ds-reaction{background:#9bd9c9;}.ds-target{border-radius:50%;background:#e7c087;}.ds-network p{font-size:10px;color:#9eb5c7;line-height:1.6;margin:9px 0 0;}",
+      "refersTo": "network-panel"
+    },
+    {
+      "name": "Budget segmented control",
+      "kind": "button",
+      "description": "Pressed and unpressed source colors with native button focus.",
+      "html": "<div class=\"ds-segmented\"><button aria-pressed=\"true\">Online budget</button><button aria-pressed=\"false\">Include pretraining</button></div>",
+      "css": ".ds-segmented{display:inline-flex;background:#e9eeec;padding:3px;border-radius:6px;align-items:center;}.ds-segmented button{font-family:Manrope,system-ui,sans-serif;font-size:10px;padding:6px 10px;background:none;border:0;border-radius:4px;white-space:nowrap;color:#4f6862;cursor:pointer;}.ds-segmented button[aria-pressed=true]{background:#fff;color:#275c4e;}.ds-segmented button:focus-visible{outline:2px solid #378e7a;outline-offset:4px;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Molecular Atlas",
+    "overview": "Light sage working surfaces, deep navy topology and precise categorical marks give this local research application the character of a structural biology atlas. Compact controls and aligned numerical comparisons support inspection; biological imagery adds context without substituting for model evidence.\n\nThis records the primary React/TypeScript interface and local FastAPI integration. The optional legacy Streamlit interface is not the source of these tokens. The approved direction is code-led: built components, rather than a raster UI comp, define the system.",
+    "keyCharacteristics": [
+      "Light working surfaces beside a dark scientific topology canvas.",
+      "Self-hosted Manrope, compact labels and tabular numerical results.",
+      "Categorical graph shapes, explicit source labels and recorded research tables.",
+      "Brief state transitions and clearly labeled conceptual cell art."
+    ],
+    "rules": [
+      {
+        "name": "The Explicit Evidence Rule",
+        "body": "Pair color with source labels, units and explanatory text; never let an accent imply biological validation.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "**Do** retain source labels and units beside scientific values.",
+      "**Do** pair graph colors with marker shapes, legends and topology captions.",
+      "**Do** preserve visible keyboard focus, native fields and responsive drawer/navigation behavior.",
+      "**Do** retain conceptual AI labeling and asset/font provenance."
+    ],
+    "donts": [
+      "**Don't** present a learned estimate or solver simulation as experimental biological validation.",
+      "**Don't** describe ensemble disagreement as a calibrated confidence interval.",
+      "**Don't** animate graph connections as if they were measured flux.",
+      "**Don't** replace exact-value tables with charts alone."
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+.venv/
+.tmp/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+data/
+runs/
+.streamlit/secrets.toml
+frontend/node_modules/
+frontend/dist/

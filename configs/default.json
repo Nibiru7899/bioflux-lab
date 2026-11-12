@@ -1,0 +1,17 @@
+{
+  "seed": 20261028,
+  "growth_fraction": 0.1,
+  "glucose": [2, 4, 6, 8, 10, 12],
+  "oxygen": [0, 2, 10, 20],
+  "scenario_limit": 6000,
+  "epochs": 100,
+  "patience": 15,
+  "batch_size": 64,
+  "ensemble_members": 3,
+  "hidden_dim": 32,
+  "search_seeds": [11, 23, 37, 51, 71],
+  "search_initial": 8,
+  "search_budget": 40,
+  "max_hours": 6,
+  "max_disk_gb": 10
+}
